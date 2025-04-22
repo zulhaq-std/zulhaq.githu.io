@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jadwal Magic Chess</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Jadwal Pertandingan 7 Ronde</h1>
+
+    <label for="player1">Nama Kamu (Player 1):</label>
+    <input type="text" id="player1" placeholder="Player 1" />
+
+    <h3>Nama Pemain Lain</h3>
+    <div id="otherPlayers"></div>
+
+    <button onclick="generateSchedule()">Susun Jadwal</button>
+
+    <h3>Jadwal Pertandingan</h3>
+    <div id="scheduleTable"></div>
+
+    <button onclick="saveSchedule()">Simpan Jadwal</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
